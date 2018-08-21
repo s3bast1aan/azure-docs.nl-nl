@@ -64,7 +64,7 @@ Get-AzureApplicationGateway AppGwTest
 
 ## <a name="upload-ssl-certificates"></a>SSL-certificaten uploaden
 
-Voer `Add-AzureApplicationGatewaySslCertificate` voor het uploaden van het servercertificaat in PDF-indeling voor de toepassingsgateway. Naam van het certificaat is de naam van een gebruiker zijn gekozen en moet uniek zijn binnen de toepassingsgateway. Dit certificaat wordt verwezen door deze naam in alle beheerbewerkingen van certificaat in de toepassingsgateway.
+Voer `Add-AzureApplicationGatewaySslCertificate` voor het uploaden van het servercertificaat in PFX-indeling voor de toepassingsgateway. Naam van het certificaat is de naam van een gebruiker zijn gekozen en moet uniek zijn binnen de toepassingsgateway. Dit certificaat wordt verwezen door deze naam in alle beheerbewerkingen van certificaat in de toepassingsgateway.
 
 Het volgende voorbeeld ziet u de cmdlet. Vervang de waarden in de steekproef die door uw eigen.
 
